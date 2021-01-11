@@ -1,0 +1,5 @@
+enName=input("영문이름 : ")
+enLast=input("영문성 : ")
+year=input("출생연도 : ")
+l_id=enName[::2].lower()+str(year)[-2:]+enLast[0].upper()+enLast[1:].lower()
+print("로그인 아이디 : "+l_id)
