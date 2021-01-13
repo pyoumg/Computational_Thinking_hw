@@ -5,13 +5,13 @@ eng_scores = [55, 79, 48, 68, 100]
 scores = [students, kor_scores, math_scores, eng_scores]
 
 for i in range(len(students)):
-    total=0
-    for j in range(1,len(scores)):
+    total = 0
+    for j in range(1, len(scores)):
         total += scores[j][i]
     print(
         "{} 총점 : {} 평균 : {:.2f}".format(
             scores[0][i],
             total,
-            total/ 3,
+            total / 3,
         )
     )
