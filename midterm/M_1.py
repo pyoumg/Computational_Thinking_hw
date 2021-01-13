@@ -1,9 +1,12 @@
-w = 5; x = 17; y = 2.0; z = 9;
+w = 5
+x = 17
+y = 2.0
+z = 9
 
-w = z%5
+w = z % 5
 
 x += z
 
-y = y*x
+y = y * x
 
-print('{:2d},{:+},{:.2f}'.format(w, x, y))
+print("{:2d},{:+},{:.2f}".format(w, x, y))
