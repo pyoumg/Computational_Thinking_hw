@@ -1,11 +1,12 @@
 def center(sentence, width):
-    for i in range((width - sentence) // 2):
+    for i in range((width - len(sentence)) // 2):
         print(" ", end="")
     print(sentence)
 
 
 def right(sentence, width):
-    sentence.rjust(width)
+    for i in range(width - len(sentence)):
+        print(" ", end="")
     print(sentence)
 
 

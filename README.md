@@ -12,5 +12,11 @@
 6. 조건문(h4)
 7. 리스트(h5)<br>
 중간고사(midterm)
-8. for문
-9. while문
+8. for문(h6)
+9. while문(h7)
+10. 튜플/집합/사전(h8)
+11. 함수1
+12. 함수2(scope)(h9)
+13. module/ turtle(실습 없음)
+14. 파일 입출력<br>(h10)
+기말고사(final)

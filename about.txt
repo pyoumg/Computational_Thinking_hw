@@ -1,0 +1,4 @@
+Python is a widely used high-level language.
+Python is also a dynamic programming language.
+It's fun!
+It's easy to learn!
