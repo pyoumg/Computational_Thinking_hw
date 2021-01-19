@@ -14,6 +14,6 @@ def print_file(dir):
 
 if __name__ == "__main__":
 
-    dir = r"C:\Users\alluo\Downloads\[2020-겨울학기-컴퓨팅사고력-01]Ch8과제"
+    dir = r""  #path
 
     print_file(dir)
